@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=5, user-scalable=1, viewport-fit=cover">
-        <meta name="description" content="Nemesis Group">
+        <meta name="description" content="Stanley's personal website">
         <meta property="og:image" content="og-img.png"/>
         <link rel="image_src" href="og-img.png"/>
         <link rel="preload" href="Anybody.woff2" as="font" crossorigin="anonymous"/>
@@ -29,24 +29,7 @@
     </head>
     <body onresize="reszajz()" id="body" style="overscroll-behavior: none !important;">
         <div style="z-index:9999; display:flex; justify-content:flex-start;align-items:center;width:100%;">
-            <!-- <svg onclick="scrollUp()" id="logo" style="mix-blend-mode:exclusion; position:fixed; top:calc(2vw + 15px); left:calc(5vw + 15px); z-index:99; width:150px; transition: all 0.6s ease;" viewbox="0 0 152 24" class="anm2"> 
-                <path class="anm2" stroke="none" d="M18.7,1.6h6.9v20.8h-11L9.2,7.1v15.3H2.3V1.6h11l5.3,14.9L18.7,1.6z M58.9,17.3L56.3,1.6H45.2v20.8H52v-16h0l2.9,16h7.9
-	l2.9-16h0v16h6.8V1.6H61.6L58.9,17.3z M27.7,22.4h15.7v-4.7h-8.8v-3.5h8.1V9.7h-8.1V6.3h8.8V1.6H27.7V22.4z M74.8,22.4h15.7v-4.7
-	h-8.8v-3.5h8.1V9.7h-8.1V6.3h8.8V1.6H74.8V22.4z M148.4,4.5c-0.3,0-0.5-0.2-0.5-0.6c0-0.4,0.2-0.6,0.5-0.6c0.3,0,0.4,0.2,0.5,0.3
-	l0.6-0.2c-0.1-0.4-0.5-0.8-1.1-0.8c-0.7,0-1.2,0.5-1.2,1.2c0,0.7,0.6,1.2,1.3,1.2c0.6,0,1-0.4,1.1-0.8l-0.6-0.2
-	C148.9,4.4,148.7,4.5,148.4,4.5z M150.8,4c0,1.3-1.1,2.4-2.4,2.4S146,5.3,146,4s1.1-2.4,2.4-2.4S150.8,2.6,150.8,4z M150.2,4
-	c0-1-0.8-1.9-1.8-1.9s-1.8,0.8-1.8,1.9s0.8,1.9,1.8,1.9S150.2,5,150.2,4z M110.7,11.7c-1-0.7-3.1-1.4-6.3-2c-1.6-0.3-3-0.6-3.9-0.8
-	c-1-0.2-1.5-0.7-1.5-1.4c0-0.5,0.3-0.9,0.9-1.1c0.6-0.2,1.4-0.3,2.3-0.3c0.8,0,1.5,0.1,2.2,0.4c0.6,0.3,1,1,1,2.3h6.9
-	c0-2-0.7-3.7-2-5.2c-1.3-1.5-4-2.2-8-2.2c-4,0-6.7,0.7-8,2.1c-1.3,1.4-1.9,3-1.9,4.9c0,1.8,0.5,3.1,1.6,3.9c1.1,0.8,3.1,1.5,6.2,2.1
-	c1.7,0.3,3,0.5,3.9,0.7s1.4,0.7,1.4,1.3c0,0.6-0.3,1-0.9,1.2s-1.4,0.3-2.2,0.3s-1.6-0.1-2.2-0.4c-0.6-0.3-0.9-1.1-0.9-2.4h-6.9
-	c0,2.1,0.6,3.8,1.9,5.3c1.3,1.4,4,2.1,8.2,2.1c4.1,0,6.7-0.7,8-2.1c1.3-1.4,1.9-3.1,1.9-5C112.3,13.6,111.8,12.4,110.7,11.7z
-	 M142.5,11.7c-1-0.7-3.1-1.4-6.3-2c-1.6-0.3-3-0.6-3.9-0.8c-1-0.2-1.5-0.7-1.5-1.4c0-0.5,0.3-0.9,0.9-1.1c0.6-0.2,1.4-0.3,2.3-0.3
-	c0.8,0,1.5,0.1,2.2,0.4c0.6,0.3,1,1,1,2.3h6.9c0-2-0.7-3.7-2-5.2c-1.3-1.5-4-2.2-8-2.2c-4,0-6.7,0.7-8,2.1c-1.3,1.4-1.9,3-1.9,4.9
-	c0,1.8,0.5,3.1,1.6,3.9c1.1,0.8,3.1,1.5,6.2,2.1c1.7,0.3,3,0.5,3.9,0.7s1.4,0.7,1.4,1.3c0,0.6-0.3,1-0.9,1.2s-1.4,0.3-2.2,0.3
-	s-1.6-0.1-2.2-0.4c-0.6-0.3-0.9-1.1-0.9-2.4h-6.9c0,2.1,0.6,3.8,1.9,5.3c1.3,1.4,4,2.1,8.2,2.1c4.1,0,6.7-0.7,8-2.1
-	c1.3-1.4,1.9-3.1,1.9-5C144,13.6,143.5,12.4,142.5,11.7z M114.8,22.4h6.9V1.6h-6.9V22.4z" style="fill:white; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; cursor:pointer;"/>
-            </svg>             
-        </div> -->
+           
         <div style="position:fixed; top:calc(2vw + 15px); right:calc(5vw + 15px); z-index:100; transition: all 0.6s ease;  display:var(--mobil-hide);mix-blend-mode:exclusion;">
             <a id="g2" class="anchor" href="#aboutus" target="_self" onmouseover="this.style.color='#4d4e44'" onmouseout="this.style.color='white'" style="font-variation-settings: 'wght' 374, 'wdth' 67; color:white;">ABOUT ME</a>
             <a id="g1" class="anchor" href="#career" target="_self" onmouseover="this.style.color='#4d4e44'" onmouseout="this.style.color='white'" style="font-variation-settings: 'wght' 374, 'wdth' 67; color:white;">CAREER</a>
@@ -75,7 +58,7 @@
                 <picture class="pik">
                     <source data-srcset="spaceman2.webp" type="image/webp">
                     <source data-srcset="spaceman2.jpg" type="image/jpeg"> 
-                    <img data-srcset="spaceman2.jpg" alt="Nemesis Astronaut" style="transition-delay:1s; height:var(--2ndheight); max-height:var(--2ndmaxheight); width:auto; max-width:100vw;">
+                    <img data-srcset="spaceman2.jpg" alt="Stanley" style="transition-delay:1s; height:var(--2ndheight); max-height:var(--2ndmaxheight); width:auto; max-width:100vw;">
                 </picture>
             </div>
 
@@ -170,7 +153,7 @@ This is Stanley Sujith Nelavala, COE19B043 - A student studying 2nd year, Comput
                 <picture class="pik animate-me">
                     <source data-srcset="globe.jfif" type="image/webp/jfif">
                     <source data-srcset="globe.jfif" type="image/jfif"> 
-                    <img data-srcset="globe.jfif" alt="Nemesis Globe" style="transition-delay:1s; height:var(--3rdheight); height:80vh; width:auto; max-width:100vw;">
+                    <img data-srcset="globe.jfif" alt="Stanley edu" style="transition-delay:1s; height:var(--3rdheight); height:80vh; width:auto; max-width:100vw;">
                 </picture>
             </div>
             <div class="section" style="flex-direction:column; align-items:flex-start; justify-content:center; padding: calc(5vw + 15px) calc(5vw + 15px) calc(3vw + 4vh) calc(5vw + 15px); width:var(--3rdtextwidth); background:var(--brandcolor);">
@@ -184,7 +167,7 @@ Until i got into bachelors' all my education was within Andhra Pradesh.<br><br><
                 <picture class="pik animate-me">
                     <source data-srcset="sliema.jfif" type="image/webp/jfif">
                     <source data-srcset="sliema.jfif" type="image/jpeg/jfif"> 
-                    <img data-srcset="sliema.jfif" alt="Nemesis Office" style="transition-delay:1s; height:var(--2ndheight); width:auto; max-width:100vw; max-height:var(--officemaxheight);">
+                    <img data-srcset="sliema.jfif" alt="Stanley college" style="transition-delay:1s; height:var(--2ndheight); width:auto; max-width:100vw; max-height:var(--officemaxheight);">
                 </picture>
             </div>
             <div class="section" style="flex-direction:column; align-items:flex-start; justify-content:flex-start; padding: calc(3vw + 4vh) calc(5vw + 15px) calc(3vw + 4vh) calc(5vw + 15px); width:var(--2ndtextwidth); max-width:var(--2ndtextmaxwidth); background:var(--brandcolor);">
@@ -213,7 +196,7 @@ To be grank there's a big list but this is enough if you've to see my site to kn
                 <picture class="pik animate-me">
                     <source data-srcset="fun2.jfif" type="image/webp/jfif">
                     <source data-srcset="fun2.jfif" type="image/jpeg/jfif"> 
-                    <img data-srcset="fun2.jfif" alt="Nemesis Events" style="transition-delay:1s; height:var(--2ndheight); max-height:100vh; width:auto; max-width:100vw;">
+                    <img data-srcset="fun2.jfif" alt="Stanley" style="transition-delay:1s; height:var(--2ndheight); max-height:100vh; width:auto; max-width:100vw;">
                 </picture>
             </div>      
                         <div id="career" class="section" style=" box-sizing:border-box; max-height:var(--innherh); display:flex; flex-direction: column; justify-content: flex-start;padding: calc(3vw + 15px) calc(5vw + 15px) calc(3vw + 4vh) calc(5vw + 15px);">
@@ -275,22 +258,7 @@ color:black; line-height:90%; margin:0px; text-transform: uppercase;color:#b2b1b
 
 
 
-                <!--<form id="msg" action="https://formsubmit.co/careers@nemesiscorporation.com" method="POST" enctype="multipart/form-data">
-                    <input class="alt2 animate-me" type="text" id="name" name="name" placeholder="Full Name*" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð '-]{1,32}" oninvalid="setCustomValidity('Full name required, letters and spaces only')" oninput="setCustomValidity('')" required>
-                    <br>
-                    <input class="alt2b animate-me" type="text" id="email" name="email" placeholder="E-mail Address*" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,7}" oninvalid="this.setCustomValidity('Valid Email address required')" oninput="setCustomValidity('')" required>
-                    <br>
-                    <textarea class="alt2c animate-me" type="text" id="message" name="message" placeholder="Resume*" rows="4" style="height" oninvalid="this.setCustomValidity('Cover Letter required')" oninput="setCustomValidity('')" required></textarea>
-                    <br>
-                    <img src="upload_icon.svg" style="width:25px; padding-top:15px; padding-right:10px;">
-                    <input name="attachment" type="file" id="file" accept=".pdf,.doc,.docx, one file" oninvalid="this.setCustomValidity('Upload your Resume - pdf, doc, docx, one file allowed')" oninput="setCustomValidity('')" required>
-                    <br>
-                    <br>
-                    <p style="font-size:12px; margin:0px;"> By sending a message you agree to our <a href="terms.html" style="text-decoration:none; padding:0px;"> <i style="color:black; font-size:12px;">Privacy Policy.</i></a> </p> 
-                    <input type="text" name="_honey" style="display:none">
-                    <input type="hidden" name="_next" value="sent.html"> 
-                    <input id="send" onmouseover="this.style.color='var(--brandcolor)'" onmouseout="this.style.color='black'" type="submit" value="SEND" name="button"> 
-                </form>  -->               
+                             
             </div>             
             <div class="section" style="background-image: url('footerbg.svg'); background-size: 68px 68px; background-repeat: repeat; padding: calc(3vw + 15px) calc(5vw + 15px) calc(3vw + 4vh) calc(5vw + 15px);align-items:center; height:var(--footerh); min-width:var(--globew);">
                 
@@ -430,5 +398,5 @@ if(navigator.appName.indexOf("Internet Explorer")!=-1 || navigator.userAgent.mat
 }
 </script>
 
-<!-- Mirrored from nemesiscorporation.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jan 2021 10:05:01 GMT -->
+
 </html>
